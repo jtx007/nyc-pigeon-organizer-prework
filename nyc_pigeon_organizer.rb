@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
     atrr_hash.each do |atrribute, array|
       array.each do |name|
         pigeon_list[name] = pigeon_attr
+        pigeon_list[name][pigeon_attr] = [atrribute]
 
     
   binding.pry
